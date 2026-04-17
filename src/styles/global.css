@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
+
+@layer utilities {
+  .resume-page {
+    width: 210mm;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  @media print {
+    .resume-page {
+      min-height: 297mm;
+    }
+    body > *:not(#resume-print-root) {
+      display: none !important;
+    }
+    #resume-print-root {
+      display: block !important;
+    }
+  }
+}
