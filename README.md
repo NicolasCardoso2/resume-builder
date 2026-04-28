@@ -1,42 +1,26 @@
-<h1 align="center">Resume Builder</h1>
+<div align="center">
 
-<p align="center">
-  Crie currículos profissionais em minutos — com preview ao vivo, múltiplos templates e exportação em PDF.
-</p>
+# Resume Builder
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Zustand-4-orange?style=flat-square" />
-</p>
+**Crie currículos profissionais em minutos — preview ao vivo, múltiplos templates e exportação em PDF.**
+
+[![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite_5-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS_3-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+
+> Aplicação web para criação de currículos profissionais com editor interativo, preview em tempo real, 3 templates distintos e exportação direta para PDF em formato A4.
+
+</div>
 
 ---
 
-## Screenshots
+## Índice
 
-### Página inicial
-![Página inicial](public/screenshots/home.png)
-
-### Galeria de templates
-![Templates](public/screenshots/templates.png)
-
-### Editor com preview ao vivo
-![Editor](public/screenshots/editor.png)
-
-<details>
-<summary>Ver templates individuais</summary>
-
-### Template Moderno
-![Template Moderno](public/screenshots/template-modern.png)
-
-### Template Clássico
-![Template Clássico](public/screenshots/template-classic.png)
-
-### Template Minimalista
-![Template Minimalista](public/screenshots/template-minimal.png)
-
-</details>
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias](#tecnologias)
+- [Como Rodar](#como-rodar)
+- [Páginas](#páginas)
 
 ---
 
@@ -54,7 +38,23 @@
 
 ---
 
-## Como rodar
+## Tecnologias
+
+| Tecnologia | Versão | Uso |
+|---|---|---|
+| React | 18 | UI declarativa |
+| Vite | 5 | Bundler e dev server |
+| TypeScript | 5 | Tipagem estática |
+| Tailwind CSS | 3 | Estilização utility-first |
+| Zustand | 4 | Gerenciamento de estado global |
+| React Hook Form | — | Formulários performáticos |
+| dnd-kit | — | Drag & drop acessível |
+| jsPDF + html2canvas | — | Exportação para PDF |
+| React Router DOM | 6 | Roteamento SPA |
+
+---
+
+## Como Rodar
 
 ```bash
 # Instalar dependências
@@ -74,19 +74,15 @@ Acesse em **http://localhost:5173**
 ## Páginas
 
 | Rota | Descrição |
-|------|-----------|
+|---|---|
 | `/` | Página inicial |
 | `/templates` | Galeria de templates |
-| `/editor` | Editor completo com preview |
+| `/editor` | Editor completo com preview ao vivo |
 
 ---
 
-## Tecnologias
+<div align="center">
 
-- [React 18](https://react.dev/) + [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Zustand](https://zustand-demo.pmnd.rs/) — estado global
-- [React Hook Form](https://react-hook-form.com/) — formulários
-- [dnd-kit](https://dndkit.com/) — drag & drop
-- [jsPDF](https://github.com/parallax/jsPDF) + [html2canvas](https://html2canvas.hertzen.com/) — exportação PDF
-- [React Router DOM v6](https://reactrouter.com/) — roteamento
+Feito por [Nicolas Cardoso](https://github.com/NicolasCardoso2) · [LinkedIn](https://www.linkedin.com/in/nicolas-cardoso-vilha-do-lago-2483b1322/)
+
+</div>
